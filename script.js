@@ -23,3 +23,11 @@ let humanChoice = function() {
 }
 
 //console.log(humanChoice());
+
+
+
+/******* Step 3: keep track of the score  ******/
+
+let computerScore = 0;
+let humanScore = 0;
+
