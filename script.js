@@ -11,6 +11,15 @@ let computerChoice = function() {
     }
 };
 
-console.log(computerChoice());
+//console.log(computerChoice());
 
-/*******  Step 1: get the computer's choice  ******/
+
+
+/******* Step 2: get the human's choice  ******/
+
+let humanChoice = function() {
+    let input = prompt("Please enter your choice.");
+    return input;
+}
+
+//console.log(humanChoice());
