@@ -22,58 +22,15 @@ let humanChoice = function() {
 
 
 
-/******* STEP 3: keep track of the score  ******/
-/******* integrated in Step 5 further down  ******/
-/*
-let computerScore = 0;
-let humanScore = 0;
-*/
-
-
-/******* STEP 4: play a single round  ******/
-/******* integrated in Step 5 further down ******/
-/*
-let playRound = function(human, computer) {
-    if (human === "rock" && computer === "paper") {
-        computerScore = computerScore + 1;
-        console.log("You lose! Paper beats Rock.");
-    } else if (human === "rock" && computer === "scissors") {
-        humanScore = humanScore + 1;
-        console.log("You win! Rock beats Scissors.");
-    } else if (human === "rock" && computer === "rock") {
-        console.log("No winner! Both chose Rock.");
-    } else if (human === "paper" && computer === "rock") {
-        humanScore = humanScore + 1;
-        console.log("You win! Paper beats Rock.");
-    } else if (human === "paper" && computer === "scissors") {
-        computerScore = computerScore + 1;
-        console.log("You lose! Scissors beats Paper.");
-    } else if (human === "paper" && computer === "paper") {
-            console.log("No winner! Both chose Paper.");
-    } else if (human === "scissors" && computer === "rock") {
-        computerScore = computerScore + 1;
-        console.log("You lose! Rock beats Scissors.");
-    } else if (human === "scissors" && computer === "paper") {
-        humanScore = humanScore + 1;
-        console.log("You win! Scissors beats Paper.");
-    } else if (human === "scissors" && computer === "scissors") {
-        console.log("No winner! Both chose Scissors.");
-    }
-}
-
-playRound(humanChoice(), computerChoice());
-*/
-
-
-
-/******* STEP 5: play the entire game  ******/
+/******* STEP 5: play the game  ******/
 
 let playGame = function() {
 
     let computerScore = 0;
     let humanScore = 0;
 
-    for (let i = 0; i < 5; i++) {
+    // to play 5 rounds ==> change "i < 1" to "i < 5"
+    for (let i = 0; i < 1; i++) {
         let playRound = function(human, computer) {
             if (human === "rock" && computer === "paper") {
                 computerScore = computerScore + 1;
